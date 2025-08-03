@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import styled from 'styled-components';
-import HomeScreen from './components/HomeScreen';
-import GameScreen from './components/GameScreen';
-import GameOverScreen from './components/GameOverScreen';
-import LeaderboardScreen from './components/LeaderboardScreen';
+import HomeScreen from './components/HomeScreen.tsx';
+import GameScreen from './components/GameScreen.tsx';
+import GameOverScreen from './components/GameOverScreen.tsx';
+import LeaderboardScreen from './components/LeaderboardScreen.tsx';
 
 const AppContainer = styled.div`
   width: 100vw;
